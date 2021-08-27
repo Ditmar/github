@@ -7,5 +7,13 @@ const main = () => {
   const removeProducts = (name) => {
     productos = productos.filter((item) => item !== name);
   };
+  const updateProducts = (name, newmane) => {
+    productos = productos.map((item) => {
+      if (name === item) {
+        item = newname;
+      }
+      return item;
+    });
+  };
 };
 main();
