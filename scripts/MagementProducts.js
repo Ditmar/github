@@ -15,6 +15,9 @@ const ManagementProducts = () => {
       return item;
     });
   };
-  return [addProducts, removeProducts, updateProducts];
+  const getProducts = () => {
+    return productos;
+  };
+  return [addProducts, removeProducts, updateProducts, getProducts];
 };
 export default ManagementProducts;
