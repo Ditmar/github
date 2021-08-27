@@ -2,7 +2,6 @@ import ManagementProducts from "./MagementProducts.js";
 const main = () => {
   const [addProducts, removeProducts, updateProducts, getProducts] =
     ManagementProducts();
-
   console.log(getProducts());
   let tagList = document.getElementById("list");
   let inputDom = document.getElementById("inputtxt");
